@@ -1,13 +1,13 @@
-# Introduction
+# The Battle of Neighborhoods
+## Introduction
+AMSTERDAM COFFEE wants to open a new coffee shop somewhere in Toronto, Canada. However, for it to be profitable they want to explore which neighborhood would be most suitable. Therefor the aim of this project is to find the best neighborhood for a new coffee shop.
 
-A Japanse family wants to open a new noodles restaurant in The Netherlands. They are unsure where to exactly open the restaurant, and are doubting between Amsterdam, Utrecht, and Eindhoven.
+We try to answer the following research question:
+> What neighborhood is most suitable for opening a new coffee shop?
 
-The aim of this project is to find the best possible place to open a Japanse noodles restaurant.
-
-Therefore the number of Asian restaurants in each respective city (Amsterdam, Utrecht, Eindhoven) are quantified. The best possible place  is then defined as the city where you can already find Asian cuisine restaurants (an indicator there is a market for Asian restaurants), but with the lowest amount of Asian restaurants per 1,000 inhabitans (indicating a business opportunity).
+The best neighborhood for opening a new coffeeshop is defined as any Toronto neighborhood where the occurence of coffee shops is not in the top three venues.
 
 ## Data
-
 The data will be collected via the Foursquare API. The data will be about the municipalities in Amsterdam, Utrecht, and Eindhoven. The data allows us find the best spot for opening a noodles restaurant.
 
 It will exist of:
