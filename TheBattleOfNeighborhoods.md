@@ -9,3 +9,8 @@ Therefore the number of Asian restaurants in each respective city (Amsterdam, Ut
 ## Data
 
 The data will be collected via the Foursquare API. The data will be about the municipalities in Amsterdam, Utrecht, and Eindhoven. The data allows us find the best spot for opening a noodles restaurant.
+
+It will exist of:
+- number of inhabitants per city
+- number of restaurants per city
+- number of Asian restaurants per city
