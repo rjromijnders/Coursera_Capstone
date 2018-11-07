@@ -28,7 +28,7 @@ Filtering the results of the Toronto venues such that 'Coffee Shop' is not among
 ![Image of Possible Locations](https://github.com/rjromijnders/Coursera_Capstone/blob/master/Coffee_Shop_locations.jpg)
 
 The results are plotted on the map of Toronto to visualize their respective locations:
-![Image of Possible Locations](https://github.com/rjromijnders/Coursera_Capstone/blob/master/Coffee_Shop_locations_map1.jpg)
+![Image of Possible Locations](https://github.com/rjromijnders/Coursera_Capstone/blob/master/Coffee_Shop_locations_map_loc1.jpg)
 
 
 ## Discussion
