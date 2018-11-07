@@ -15,15 +15,16 @@ The second part of the data  comprises the geographical coordinates for each nei
 To plot the nearby venues on the map of Toronto, data is collected via the Foursquare API. The data concerns all kinds of venues in the Toronto area, and is structured per borough and per neighborhood. The result is a pandas dataframe with Neighborhood, Neighborhood Latitude, Neighborhood Longitude, Venue, Venue Latitude, Venue Longitude, Venue Category for each category.
 
 ## Methodology
-*Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.*
 Neighborhood information is scraped from a Wikipedia webpage. Whenever the Borough is 'Not assigned', it is left out of the data. Whenever there is a Borough, but the Neighborhood is 'Not assigned', the Neighborhood is set to equal the Borough. If in one Postal code there exist more Neighborhoods, then these Neighborhoods are combined into one record for the Postal code (the Neighborhoods are joined together, and separated with a comma).
 
 Geographical coordinates are obtained from a provided *.csv*-file. Dataframes are merged together.
 
-Information about nearby venues for each Neighborhood is obtained via the Foursquare API. An additional pandas dataframe is instantiated to exist of the Neighborhood and a one-hot coded score for each Venue Category. Rows are grouped by neighborhood and by taking the mean of the frequency of occurrence of each Venue Category. The dataframe is sorted on the top 3 venues for each Neighborhood.
+Information about nearby venues for each Neighborhood is obtained via the Foursquare API. An additional pandas dataframe is instantiated to exist of the Neighborhood and a one-hot coded score for each Venue Category. Rows are grouped by neighborhood and by taking the mean of the frequency of occurrence of each Venue Category. The dataframe is sorted on the top 3 venues for each Neighborhood. Subsequently the records for which 'Coffee Shop' occurs in the top 3 is removed.
+
+Using **folium** the resulting neighborhoods are plotted on a map of Toronto, from which possible locations for opening a new coffee shop are derived.
 
 ## Results
-Results section where you discuss the results.
+
 
 ## Discussion
 Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
