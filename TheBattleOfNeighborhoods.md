@@ -39,4 +39,4 @@ The results are plotted on the map of Toronto to visualize their respective loca
 - Downtown Toronto
 
 ## Conclusion
-Four locations are promising Neighborhoods for opening a new coffee shop: Chinatown, Grange Park, Kensington Market, Downtown Toronto. These locations were selected because of the absence of coffee shops in the top 3 venues, and the proximity to the city center. It is suggested to further research these Neighborhoods regarding -amongst others- permits for opening a new Coffee Shops, the ease of transportation (in- and outflow of coffee by trucks?) and the numbers of possible visitors.
+Four locations are promising Neighborhoods for opening a new coffee shop: Chinatown, Grange Park, Kensington Market, Downtown Toronto. These locations were selected because of the absence of coffee shops in the top 3 venues, and the proximity to the city center. It is suggested to further research these Neighborhoods regarding -amongst others- permits for opening a new Coffee Shops, the ease of transportation (in- and outflow of coffee by trucks?) and the numbers of possible visitors (how many people do visit these areas?).
