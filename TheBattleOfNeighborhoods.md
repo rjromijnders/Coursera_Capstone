@@ -19,18 +19,24 @@ Neighborhood information is scraped from a Wikipedia webpage. Whenever the Borou
 
 Geographical coordinates are obtained from a provided *.csv*-file. Dataframes are merged together.
 
-Information about nearby venues for each Neighborhood is obtained via the Foursquare API. An additional pandas dataframe is instantiated to exist of the Neighborhood and a one-hot coded score for each Venue Category. Rows are grouped by neighborhood and by taking the mean of the frequency of occurrence of each Venue Category. The dataframe is sorted on the top 3 venues for each Neighborhood. Subsequently the records for which 'Coffee Shop' occurs in the top 3 is removed.
+Information about nearby venues for each Neighborhood is obtained via the Foursquare API. An additional pandas dataframe is instantiated to exist of the Neighborhood and a one-hot coded score for each Venue Category. Rows are grouped by neighborhood and by taking the mean of the frequency of occurrence of each Venue Category. The dataframe is sorted on the top 3 venues for each Neighborhood. Subsequently the records for which 'Coffee Shop' occurs in the top 3 are removed.
 
 Using **folium** the resulting neighborhoods are plotted on a map of Toronto, from which possible locations for opening a new coffee shop are derived.
 
 ## Results
-Results in a finite number of records:
+Filtering the results of the Toronto venues such that 'Coffee Shop' is not among the top 3 venues results in 17 possible location for opening a new coffee shop.
 ![Image of Possible Locations](https://github.com/rjromijnders/Coursera_Capstone/blob/master/Coffee_Shop_locations.jpg)
 
+The results are plotted on the map of Toronto to visualize their respective locations:
+![Image of Possible Locations](https://github.com/rjromijnders/Coursera_Capstone/blob/master/Coffee_Shop_locations_map.jpg)
 
 
 ## Discussion
-Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
+17 possible locations for opening a new coffee shop are found by looking up information about nearby venues for the Toronto neighborhoods. The best neighborhood was defined as the Neighborhood where the occurence of coffee shops is not in the top three venues, and that is closest to the city center. Using these selection criteria the following Neighborhoods are highlighted for possible locations:
+- Chinatown, 
+- Grange Park,
+- Kensington Market,
+- Downtown Toronto
 
 ## Conclusion
-Conclusion section where you conclude the report.
+Four locations are promising Neighborhoods for opening a new coffee shop: Chinatown, Grange Park, Kensington Market, Downtown Toronto. These locations were selected because of the absence of coffee shops in the top 3 venues, and the proximity to the city center. It is suggested to further research these Neighborhoods regarding -amongst others- permits for opening a new Coffee Shops, the ease of transportation (in- and outflow of coffee by trucks?) and the numbers of possible visitors.
