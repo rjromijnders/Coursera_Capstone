@@ -24,6 +24,9 @@ Information about nearby venues for each Neighborhood is obtained via the Foursq
 Using **folium** the resulting neighborhoods are plotted on a map of Toronto, from which possible locations for opening a new coffee shop are derived.
 
 ## Results
+Results in a finite number of records:
+![Image of Possible Locations](https://octodex.github.com/images/yaktocat.png)
+
 
 
 ## Discussion
